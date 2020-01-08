@@ -1,0 +1,81 @@
+body {
+	width: 960px;
+	margin: 20px auto;
+	background-color: rgba(255, 239, 195, 0.911);
+}
+header {
+	widows: 960;
+	margin: auto;
+	height: auto;
+	border-bottom: 1px solid grey;
+}
+h1 {
+	text-align: center;
+	color: #3d0000;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav {
+	display: inline-block;
+	width: 200px;
+	padding: 16px 0 16px 0;
+	
+}
+section {
+	padding: 8px 8px 8px 8px;
+	width: 740px;
+	margin: auto;
+	float: right;
+	border-left: 1px solid grey;
+	vertical-align: top;
+	text-align: center;
+}
+img {
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.bold1 {
+	font-weight: bold;
+}
+.italic1 {
+	font-style: italic;
+}
+ul {
+	list-style-type: square;
+	list-style-position: outside;
+	color: #ff9e9f;
+	font-family: monospace;
+}
+p {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #492828;
+}
+
+table {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	border-collapse: collapse;
+	width: 60%;
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+th {
+	padding: 12px;
+}
+td {
+	padding: 8px;
+}
+th, td {
+	border: solid 1px grey;
+}
+tr {
+	background-color: #EDEDED;
+}
+tr.even {
+	background-color: #F7F7F7;
+}
+#heading {
+	background-color: #ff9e9f;
+	color: white;
+}
